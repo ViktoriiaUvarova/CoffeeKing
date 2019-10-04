@@ -1,0 +1,304 @@
+﻿<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+body {
+    font-size: 28px;
+}
+
+@media only screen and (max-device-width: 1366px){
+.parallax{
+	background-attachment: scroll;
+}
+}
+
+.parallax{
+background-image: url('https://www.elsetge.cat/myimg/f/205-2059342_photo-wallpaper-autumn-leaves-background-tree-coffee-vintage.jpg');
+height:670px;
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax2{
+background-image: url('https://i.ytimg.com/vi/wW3tplmhGTE/maxresdefault.jpg');
+height:880px;
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax3{
+background-image: url('https://st.depositphotos.com/1038380/4370/i/950/depositphotos_43703623-stock-photo-turkish-coffee-chocolate-and-branch.jpg');
+height:880px;
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax4{
+background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4447361/910/607/m2/fpnw/wm1/nde6jdlo6yitsxwxpbwrnfbiew1nn4g0sua6zftphs639s9xwp66ocacuts7zpsg-.jpg?1526259566&s=8cc830a6e79750821600c9a4c688d061');
+height:880px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.head-text {
+  color: #FFFFFF; 
+    height: 50px; 
+    position: absolute; 
+    left: 10%; 
+    top: 30%;
+    }
+    
+    #logo{
+    height: 50px;
+    width: auto;
+    float:left;
+    }
+    
+    #ukr{
+     height: 15px;
+     margin:15px;
+    width: auto;
+    float:right;
+    }
+    
+     #rus{
+      height: 15px;
+     margin:15px;
+    width: auto;
+    float:right;
+    }
+    
+     #eng{
+     height: 15px;
+     margin:15px;
+    width: auto;
+    float:right;
+    }
+    
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e6ffe6;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #ffffff;
+}
+
+
+.header1{
+text-family:"Times New Roman";
+font-size:5vw;
+text-align:center;
+margin: 0;
+color:#ffffff;
+}
+
+h2{
+text-family:"Times New Roman";
+font-size:40px;
+text-align:center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: auto;
+  text-align: left;
+  text-decoration: none;
+  position: sticky;
+  top: 700px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-telegram{
+	color:white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu{
+   
+    }
+.menu img {
+    border: 2px solid #000000; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #FFFFFF; /* Цвет фона */
+    margin-right: 1%; /* Отступ справа */
+    margin-bottom: 2%; /* Отступ снизу */
+    width: 25%;
+    height: 290px;
+    position: relative;
+    bottom:-40px;
+    left:10%;
+   }
+   
+ .map-responsive{
+    overflow:hidden;
+    padding-bottom:45%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:45%;
+    top:15px;
+    position:absolute; 
+    }
+    
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  top: 20px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  top:110px;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.topbutton {
+width:40px;
+border:2px solid #ccc;
+background:#ffffff;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+color:#333;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+}
